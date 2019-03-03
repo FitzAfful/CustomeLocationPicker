@@ -7,44 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32A547511EC1A3B200E06B60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A547501EC1A3B200E06B60 /* main.m */; };
-		32A547541EC1A3B200E06B60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A547531EC1A3B200E06B60 /* AppDelegate.m */; };
 		32A5475A1EC1A3B300E06B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A547581EC1A3B300E06B60 /* Main.storyboard */; };
 		32A5475C1EC1A3B300E06B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A5475B1EC1A3B300E06B60 /* Assets.xcassets */; };
 		32A5475F1EC1A3B300E06B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A5475D1EC1A3B300E06B60 /* LaunchScreen.storyboard */; };
-		32A547681EC1A6DD00E06B60 /* CustomLocationPickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A547671EC1A6DD00E06B60 /* CustomLocationPickerVC.m */; };
-		32A5476C1EC1A72800E06B60 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A5476B1EC1A72800E06B60 /* Config.m */; };
 		32A5476F1EC1B0CF00E06B60 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A5476E1EC1B0CF00E06B60 /* CoreLocation.framework */; };
-		32F19BEA1EC1BEDD00CC4BD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F19BE91EC1BEDD00CC4BD1 /* ViewController.m */; };
-		32F19BF01EC1BF9900CC4BD1 /* CommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F19BED1EC1BF9900CC4BD1 /* CommonFunctions.m */; };
-		32F19BF11EC1BF9900CC4BD1 /* NSString+urlencode.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F19BEF1EC1BF9900CC4BD1 /* NSString+urlencode.m */; };
+		843B84FF222B49CE000EBEE5 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B84FE222B49CE000EBEE5 /* Config.swift */; };
+		843B8505222B4E96000EBEE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B8504222B4E96000EBEE5 /* ViewController.swift */; };
+		843B8507222B4F53000EBEE5 /* CustomLocationPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B8506222B4F53000EBEE5 /* CustomLocationPickerVC.swift */; };
+		843B8509222B52E3000EBEE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B8508222B52E3000EBEE5 /* AppDelegate.swift */; };
 		B4CC4F00C733694C1F2B7FBA /* libPods-CustomLocationPicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 793EDA9270608904A5A96952 /* libPods-CustomLocationPicker.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		32A5474C1EC1A3B200E06B60 /* CustomLocationPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomLocationPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		32A547501EC1A3B200E06B60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32A547521EC1A3B200E06B60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		32A547531EC1A3B200E06B60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		32A547591EC1A3B300E06B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32A5475B1EC1A3B300E06B60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32A5475E1EC1A3B300E06B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32A547601EC1A3B300E06B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32A547661EC1A6DD00E06B60 /* CustomLocationPickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLocationPickerVC.h; sourceTree = "<group>"; };
-		32A547671EC1A6DD00E06B60 /* CustomLocationPickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLocationPickerVC.m; sourceTree = "<group>"; };
-		32A5476A1EC1A72800E06B60 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
-		32A5476B1EC1A72800E06B60 /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
-		32A5476D1EC1ADD300E06B60 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		32A5476E1EC1B0CF00E06B60 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		32F19BE81EC1BEDD00CC4BD1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		32F19BE91EC1BEDD00CC4BD1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		32F19BEC1EC1BF9900CC4BD1 /* CommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFunctions.h; sourceTree = "<group>"; };
-		32F19BED1EC1BF9900CC4BD1 /* CommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonFunctions.m; sourceTree = "<group>"; };
-		32F19BEE1EC1BF9900CC4BD1 /* NSString+urlencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+urlencode.h"; sourceTree = "<group>"; };
-		32F19BEF1EC1BF9900CC4BD1 /* NSString+urlencode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+urlencode.m"; sourceTree = "<group>"; };
 		3A7906D878774E957FC32C46 /* Pods-CustomLocationPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomLocationPicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomLocationPicker/Pods-CustomLocationPicker.release.xcconfig"; sourceTree = "<group>"; };
 		41D2224424A48843C3DE3D64 /* Pods-CustomLocationPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomLocationPicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomLocationPicker/Pods-CustomLocationPicker.debug.xcconfig"; sourceTree = "<group>"; };
 		793EDA9270608904A5A96952 /* libPods-CustomLocationPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomLocationPicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		843B84FE222B49CE000EBEE5 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		843B8504222B4E96000EBEE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		843B8506222B4F53000EBEE5 /* CustomLocationPickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLocationPickerVC.swift; sourceTree = "<group>"; };
+		843B8508222B52E3000EBEE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,50 +77,16 @@
 		32A5474E1EC1A3B200E06B60 /* CustomLocationPicker */ = {
 			isa = PBXGroup;
 			children = (
-				32F19BEB1EC1BF9900CC4BD1 /* CommonFunctions */,
-				32A547691EC1A72800E06B60 /* Config */,
-				32A547521EC1A3B200E06B60 /* AppDelegate.h */,
-				32A547531EC1A3B200E06B60 /* AppDelegate.m */,
-				32F19BE81EC1BEDD00CC4BD1 /* ViewController.h */,
-				32F19BE91EC1BEDD00CC4BD1 /* ViewController.m */,
-				32A547661EC1A6DD00E06B60 /* CustomLocationPickerVC.h */,
-				32A547671EC1A6DD00E06B60 /* CustomLocationPickerVC.m */,
+				843B84FE222B49CE000EBEE5 /* Config.swift */,
+				843B8504222B4E96000EBEE5 /* ViewController.swift */,
+				843B8506222B4F53000EBEE5 /* CustomLocationPickerVC.swift */,
 				32A547581EC1A3B300E06B60 /* Main.storyboard */,
 				32A5475B1EC1A3B300E06B60 /* Assets.xcassets */,
 				32A5475D1EC1A3B300E06B60 /* LaunchScreen.storyboard */,
 				32A547601EC1A3B300E06B60 /* Info.plist */,
-				32A5476D1EC1ADD300E06B60 /* PrefixHeader.pch */,
-				32A5474F1EC1A3B200E06B60 /* Supporting Files */,
+				843B8508222B52E3000EBEE5 /* AppDelegate.swift */,
 			);
 			path = CustomLocationPicker;
-			sourceTree = "<group>";
-		};
-		32A5474F1EC1A3B200E06B60 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				32A547501EC1A3B200E06B60 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		32A547691EC1A72800E06B60 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				32A5476A1EC1A72800E06B60 /* Config.h */,
-				32A5476B1EC1A72800E06B60 /* Config.m */,
-			);
-			path = Config;
-			sourceTree = "<group>";
-		};
-		32F19BEB1EC1BF9900CC4BD1 /* CommonFunctions */ = {
-			isa = PBXGroup;
-			children = (
-				32F19BEC1EC1BF9900CC4BD1 /* CommonFunctions.h */,
-				32F19BED1EC1BF9900CC4BD1 /* CommonFunctions.m */,
-				32F19BEE1EC1BF9900CC4BD1 /* NSString+urlencode.h */,
-				32F19BEF1EC1BF9900CC4BD1 /* NSString+urlencode.m */,
-			);
-			path = CommonFunctions;
 			sourceTree = "<group>";
 		};
 		E29C9CF6026AEECCC28405A1 /* Frameworks */ = {
@@ -156,7 +109,6 @@
 				32A547481EC1A3B200E06B60 /* Sources */,
 				32A547491EC1A3B200E06B60 /* Frameworks */,
 				32A5474A1EC1A3B200E06B60 /* Resources */,
-				2A3E51A90C78368D1D21754F /* [CP] Embed Pods Frameworks */,
 				1B8B9847A0A2305AB7828615 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -174,13 +126,14 @@
 		32A547441EC1A3B200E06B60 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Konstant Info Solutions Pvt. Ltd.";
 				TargetAttributes = {
 					32A5474B1EC1A3B200E06B60 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = UK3KJRU64P;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 97XB8J435J;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -222,28 +175,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomLocationPicker/Pods-CustomLocationPicker-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomLocationPicker/Pods-CustomLocationPicker-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2A3E51A90C78368D1D21754F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomLocationPicker/Pods-CustomLocationPicker-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomLocationPicker/Pods-CustomLocationPicker-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		759AC101330F6A83364B44B4 /* [CP] Check Pods Manifest.lock */ = {
@@ -252,13 +195,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomLocationPicker-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -268,13 +214,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32A5476C1EC1A72800E06B60 /* Config.m in Sources */,
-				32F19BF11EC1BF9900CC4BD1 /* NSString+urlencode.m in Sources */,
-				32A547541EC1A3B200E06B60 /* AppDelegate.m in Sources */,
-				32F19BF01EC1BF9900CC4BD1 /* CommonFunctions.m in Sources */,
-				32A547681EC1A6DD00E06B60 /* CustomLocationPickerVC.m in Sources */,
-				32A547511EC1A3B200E06B60 /* main.m in Sources */,
-				32F19BEA1EC1BEDD00CC4BD1 /* ViewController.m in Sources */,
+				843B8509222B52E3000EBEE5 /* AppDelegate.swift in Sources */,
+				843B8507222B4F53000EBEE5 /* CustomLocationPickerVC.swift in Sources */,
+				843B84FF222B49CE000EBEE5 /* Config.swift in Sources */,
+				843B8505222B4E96000EBEE5 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,15 +253,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -358,15 +309,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -386,6 +345,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -395,15 +355,21 @@
 			baseConfigurationReference = 41D2224424A48843C3DE3D64 /* Pods-CustomLocationPicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Vipin Jain (ESHL9PZXSM)";
-				DEVELOPMENT_TEAM = UK3KJRU64P;
-				GCC_PREFIX_HEADER = CustomLocationPicker/PrefixHeader.pch;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97XB8J435J;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = CustomLocationPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kipl.custompicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "bca8553a-6ea1-434d-b1b4-6d682b37210d";
-				PROVISIONING_PROFILE_SPECIFIER = Feedspire_Dist;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -412,15 +378,20 @@
 			baseConfigurationReference = 3A7906D878774E957FC32C46 /* Pods-CustomLocationPicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Vipin Jain (ESHL9PZXSM)";
-				DEVELOPMENT_TEAM = UK3KJRU64P;
-				GCC_PREFIX_HEADER = CustomLocationPicker/PrefixHeader.pch;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97XB8J435J;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = CustomLocationPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kipl.custompicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "bca8553a-6ea1-434d-b1b4-6d682b37210d";
-				PROVISIONING_PROFILE_SPECIFIER = Feedspire_Dist;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
