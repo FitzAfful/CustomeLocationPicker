@@ -3,8 +3,6 @@
 //  CustomLocationPicker
 //
 //  Created by Paa Quesi Afful on 02/03/2019.
-//  Copyright © 2019 Konstant Info Solutions Pvt. Ltd. All rights reserved.
-//
 
 import Foundation
 import CoreLocation

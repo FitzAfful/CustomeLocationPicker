@@ -77,6 +77,7 @@
 		32A5474E1EC1A3B200E06B60 /* CustomLocationPicker */ = {
 			isa = PBXGroup;
 			children = (
+				843B8508222B52E3000EBEE5 /* AppDelegate.swift */,
 				843B84FE222B49CE000EBEE5 /* Config.swift */,
 				843B8504222B4E96000EBEE5 /* ViewController.swift */,
 				843B8506222B4F53000EBEE5 /* CustomLocationPickerVC.swift */,
@@ -84,7 +85,6 @@
 				32A5475B1EC1A3B300E06B60 /* Assets.xcassets */,
 				32A5475D1EC1A3B300E06B60 /* LaunchScreen.storyboard */,
 				32A547601EC1A3B300E06B60 /* Info.plist */,
-				843B8508222B52E3000EBEE5 /* AppDelegate.swift */,
 			);
 			path = CustomLocationPicker;
 			sourceTree = "<group>";

@@ -3,8 +3,6 @@
 //  CustomLocationPicker
 //
 //  Created by Paa Quesi Afful on 02/03/2019.
-//  Copyright © 2019 Konstant Info Solutions Pvt. Ltd. All rights reserved.
-//
 
 import Foundation
 import UIKit
@@ -102,7 +100,6 @@ class CustomLocationPickerVC: UIViewController, GMSMapViewDelegate, GMSAutocompl
 		let coder = GMSGeocoder()
 		coder.reverseGeocodeCoordinate(addressCoordinates, completionHandler: { results, error in
 			if error != nil {
-				// NSLog(@"Error %@", error.description);
 				self.country = ""
 				self.city = ""
 			} else {
